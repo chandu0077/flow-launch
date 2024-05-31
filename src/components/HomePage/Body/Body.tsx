@@ -91,7 +91,7 @@ const Body: React.FC<Props> = ({}) => {
     <div>
       <Navbar inputSearch={inputSearch} />
       <div className="flex flex-col items-center lg:flex-row bg-[#f6f3f7] w-full h-auto">
-        <div className="w-full lg:w-4/5 lg:mx-auto h-auto p-[12px]">
+        <div className="w-full lg:w-[80%] lg:mx-auto h-auto p-[12px]">
           <div className="w-full mx-auto">
             <p className="text-[34px] text-black text-center text-semibold">
               Products
@@ -158,6 +158,7 @@ const Body: React.FC<Props> = ({}) => {
               })}
           </div>
         </div>
+        {/* <div className="lg:w-1/5"></div> */}
       </div>
       {selectedProduct && (
         <Modal
